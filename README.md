@@ -1,6 +1,3 @@
-# XmlToTxt
-ImageNet file xml format to [Darknet](https://github.com/pjreddie/darknet) text format.
-Works well with directories and subdirectories.
 
 ### Installation
 ```bash
@@ -41,5 +38,4 @@ Output text file.
 
 ### Motivation
 
-I used [Darknet](https://github.com/pjreddie/darknet) for real-time object detection and classification. Sometimes you need to collect your own training dataset for train your model. I collected training dataset images and fine awesome [tool](https://github.com/tzutalin/labelImg) for labeling images. But it generates xml files. So I needed to implement tool which translates from ImageNet xml format to Darknet text format.
-Also compatible with latest [YOLOv5](https://github.com/ultralytics/yolov5) by Ultralytics.
+I used [xml-to-txt](https://github.com/Isabek/XmlToTxt)for YOLOv4，and Modified the required orientation transformation for a large number of training images and definitions.
